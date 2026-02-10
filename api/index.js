@@ -142,4 +142,5 @@ app.get("/health", (req, res) => {
 //   console.log("Server running");
 // });
 
-module.exports=app;
+export default app;
+
